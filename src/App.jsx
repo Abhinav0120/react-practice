@@ -4,8 +4,12 @@ import OptimisedStopwatch from './stopwatchOptimised/Stopwatch'
 import MyOptimisedStopwatch from './myStopWatchOptimised/StopWatch'
 import Counter from './Counter'
 import Calculator from './calculator/Calculator'
+import Pagination from './paginationOptimised/Pagination'
 
 function App() {
+
+  const data = Array.from({length: 95}, (_, i) => `Item ${i + 1}`)
+
   return (
     <>
       <Stopwatch />
@@ -13,6 +17,7 @@ function App() {
       <MyOptimisedStopwatch />
       <Counter/>
       <Calculator/>
+      <Pagination data ={data}/>
     </>
   )
 }
