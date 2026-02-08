@@ -50,7 +50,7 @@ function Pagination({ data, itmesPerPage = 10, windowSize = 1 }) {
                 <button onClick={() => setCurrentPage(1)}>1</button>
 
                 {
-                    pagesToShow().map((item, index) => {
+                    pagesToShow.map((item, index) => {
                         return (item === "..." ? <span key={`page${index}`}>...</span> : <button key={`page${index}`} onClick={() => setCurrentPage(item)}> {item} </button>)
                     })
                 }
