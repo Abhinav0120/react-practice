@@ -5,6 +5,7 @@ import MyOptimisedStopwatch from './myStopWatchOptimised/StopWatch'
 import Counter from './Counter'
 import Calculator from './calculator/Calculator'
 import Pagination from './paginationOptimised/Pagination'
+import InfiniteScroll from './InfiniteScroll'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Counter/>
       <Calculator/>
       <Pagination data ={data}/>
+      <InfiniteScroll />
     </>
   )
 }
