@@ -6,6 +6,7 @@ import Counter from './Counter'
 import Calculator from './calculator/Calculator'
 import Pagination from './paginationOptimised/Pagination'
 import InfiniteScroll from './InfiniteScroll'
+import InfiniteScrollPrictice from './InfiniteScrollPrictice'
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
       <Counter/>
       <Calculator/>
       <Pagination data ={data}/>
-      <InfiniteScroll />
+      {/* <InfiniteScroll /> */}
+      <InfiniteScrollPrictice/>
     </>
   )
 }
