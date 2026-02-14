@@ -17,6 +17,7 @@ function Debounce(){
     }, [debInput])
 
     return (<div>
+        <p>Debounce normal way</p>
         <input
             type="text"
             placeholder="Debounced Input"   
