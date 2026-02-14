@@ -7,6 +7,7 @@ import Calculator from './calculator/Calculator'
 import Pagination from './paginationOptimised/Pagination'
 import InfiniteScroll from './InfiniteScroll'
 import InfiniteScrollPrictice from './InfiniteScrollPrictice'
+import Debounce from './debounce'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <MyOptimisedStopwatch />
       <Counter/>
       <Calculator/>
+      <Debounce/>
       <Pagination data ={data}/>
       {/* <InfiniteScroll /> */}
       <InfiniteScrollPrictice/>
