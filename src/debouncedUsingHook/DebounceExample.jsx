@@ -10,7 +10,7 @@ function DebounceExample(){
     }, [debouncedValue])
 
     return <div>
-        <>Debounce Hook example</>
+        <p>Debounce Hook example</p>
         <input
             type="text"
             placeholder="Debounce"

@@ -9,6 +9,8 @@ import InfiniteScroll from './InfiniteScroll'
 import InfiniteScrollPrictice from './InfiniteScrollPrictice'
 import Debounce from './debounce'
 import DebounceExample from './debouncedUsingHook/DebounceExample'
+import DebounceExampleWithoutUseEffect from './debounceWithoutUseEffect/DebounceExample'
+
 
 function App() {
 
@@ -22,7 +24,8 @@ function App() {
       <Counter/>
       <Calculator/>
       <Debounce/>
-      <DebounceExample/>
+      <DebounceExample />
+      <DebounceExampleWithoutUseEffect />
       <Pagination data ={data}/>
       {/* <InfiniteScroll /> */}
       <InfiniteScrollPrictice/>
